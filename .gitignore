@@ -4,4 +4,5 @@ node_modules/
 .next/
 dist/
 *.log
-.DS_Store
+.DS_Storeplaywright-report/
+.playwright/
