@@ -6,3 +6,6 @@ dist/
 *.log
 .DS_Storeplaywright-report/
 .playwright/
+.DEPLOYMENT.md
+.MONGODB_SETUP.md
+.vscode/
