@@ -8,7 +8,7 @@ export default function LandingPage() {
   const { user } = useAuth();
   return (
     <div className="overflow-x-hidden">
-      {/* Hero */}
+      
       <section className="relative min-h-[85vh] overflow-hidden bg-gradient-to-br from-slate-900 via-primary-900 to-slate-900 px-4 pt-16 pb-24 sm:px-6">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(56,189,248,0.25),transparent)]" />
         <div className="relative mx-auto max-w-4xl pt-12 text-center">
@@ -64,7 +64,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Value props */}
+      
       <section className="border-t border-slate-200 bg-white py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <motion.h2
@@ -112,7 +112,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      
       <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
